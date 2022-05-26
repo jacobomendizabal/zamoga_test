@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  
+  if(user)
+    ul
+        img(src="#{user.photo}", width="150" heigth="150")
+      li WELCOME: <p>#{user.name}</p>
+      li TIMELINE: <p>#{user.timeline}</p>
+      li MY WORK EXPERIENCE  <p>#{user.experience}</p>
+      li
+        a(href='logout') LOGOUT
+  else
+    ul
+      li
+        a(href='auth/twitter') PLEASE INPUT TO TEST
+   
