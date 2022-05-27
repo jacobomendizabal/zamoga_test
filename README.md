@@ -6,6 +6,7 @@ WHAT YOU NEED TO USE THE APP
 
 1.- Download the files
 2.- Run npm i
+3.- MongoDb passport-example (passport-example attached)
 
 TECHNOLOGY USED
 Amazon Web Services (EC2)
